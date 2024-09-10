@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC Type 1 Checklist Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #4a4a8a;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        input[type="checkbox"] {
+            transform: scale(1.2);
+        }
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #4a4a8a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>SOC Type 1 Checklist Dashboard</h1>
+
+        <!-- Overall Security Controls -->
+        <h2>Overall Security Controls</h2>
+        <ul>
+            <li><input type="checkbox"> Review and assess the design of security controls</li>
+            <li><input type="checkbox"> Evaluate the implementation of security controls</li>
+            <li><input type="checkbox"> Test the operating effectiveness of security controls</li>
+            <li><input type="checkbox"> Review and update security controls based on industry best practices and regulatory requirements</li>
+        </ul>
+
+        <!-- Information Security Policy -->
+        <h2>Information Security Policy</h2>
+        <ul>
+            <li><input type="checkbox"> Review and assess the organization's information security policy</li>
+            <li><input type="checkbox"> Conduct penetration testing to identify potential vulnerabilities and weaknesses</li>
+            <li><input type="checkbox"> Monitor and analyze security logs for suspicious activity</li>
+            <li><input type="checkbox"> Verify the policy is communicated to all employees</li>
+            <li><input type="checkbox"> Ensure the policy is regularly updated</li>
+            <li><input type="checkbox"> Document and maintain a comprehensive inventory of security controls</li>
+        </ul>
+
+        <!-- Access Controls -->
+        <h2>Access Controls</h2>
+        <ul>
+            <li><input type="checkbox"> Regularly review and update access rights and permissions</li>
+            <li><input type="checkbox"> Implement multi-factor authentication for sensitive systems</li>
+            <li><input type="checkbox"> Review and assess access control mechanisms</li>
+            <li><input type="checkbox"> Evaluate effectiveness of the policy in addressing current threats</li>
+        </ul>
+
+        <!-- Network Security -->
+        <h2>Network Security</h2>
+        <ul>
+            <li><input type="checkbox"> Assess monitoring and enforcement of security policies</li>
+            <li><input type="checkbox"> Verify firewalls and intrusion detection systems are in place</li>
+            <li><input type="checkbox"> Test the security of network devices and configurations</li>
+        </ul>
+
+        <!-- Data Protection -->
+        <h2>Data Protection</h2>
+        <ul>
+            <li><input type="checkbox"> Review and assess data protection measures</li>
+            <li><input type="checkbox"> Verify data encryption is used when necessary</li>
+            <li><input type="checkbox"> Test the effectiveness of data backup and recovery procedures</li>
+        </ul>
+
+        <!-- Incident Response -->
+        <h2>Incident Response</h2>
+        <ul>
+            <li><input type="checkbox"> Review and assess the organization's incident response plan</li>
+            <li><input type="checkbox"> Conduct regular vulnerability assessments</li>
+            <li><input type="checkbox"> Test the organization's ability to respond to and recover from incidents</li>
+        </ul>
+
+        <!-- Vendor Management -->
+        <h2>Vendor Management</h2>
+        <ul>
+            <li><input type="checkbox"> Review and assess vendor management practices</li>
+            <li><input type="checkbox"> Verify vendor contracts include security requirements</li>
+            <li><input type="checkbox"> Conduct regular audits of vendor security practices</li>
+        </ul>
+
+        <!-- Employee Training -->
+        <h2>Employee Training</h2>
+        <ul>
+            <li><input type="checkbox"> Review and assess the organization's employee training program</li>
+            <li><input type="checkbox"> Verify employees receive security awareness training</li>
+            <li><input type="checkbox"> Conduct phishing simulations to test employees' ability to recognize attacks</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
